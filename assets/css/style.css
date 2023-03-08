@@ -1,0 +1,61 @@
+body{
+    background-color: pink;
+}
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+.center{
+    margin-left: 6%;
+    width: 100%;
+}
+.kolom {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    margin-bottom: 2%;
+}
+.menu {margin: 0 -5px;}
+
+.menu:after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .kolom {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+.card {
+    padding: 1px;
+    text-align: center;
+    background-color: powderblue;
+    border-radius: 5%;
+    border: solid royalblue;
+    color: royalblue;
+}
+.card p{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.menu img{
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+.card2 {
+    padding: 1px;
+    text-align: center;
+    background-color: peachpuff;
+    border-radius: 5%;
+    border: solid sienna;
+    color: sienna;
+}
+.card2 p{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
